@@ -1,0 +1,39 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mkxuncat", "mkxuncat.vcproj", "{E15ADF61-E732-4B1C-A198-DB74A374DF9B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{168C0F0D-9975-4D24-885C-87A9B018617E} = {168C0F0D-9975-4D24-885C-87A9B018617E}
+		{4605E1EE-6257-4083-8EB5-3B7E7164C343} = {4605E1EE-6257-4083-8EB5-3B7E7164C343}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libebml", "..\libebml\make\vc7\lib\libebml.v71.vcproj", "{168C0F0D-9975-4D24-885C-87A9B018617E}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libmatroska", "..\libmatroska\make\vc7\lib\static\libmatroska.v71.vcproj", "{4605E1EE-6257-4083-8EB5-3B7E7164C343}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{E15ADF61-E732-4B1C-A198-DB74A374DF9B}.Debug.ActiveCfg = Debug|Win32
+		{E15ADF61-E732-4B1C-A198-DB74A374DF9B}.Debug.Build.0 = Debug|Win32
+		{E15ADF61-E732-4B1C-A198-DB74A374DF9B}.Release.ActiveCfg = Release|Win32
+		{E15ADF61-E732-4B1C-A198-DB74A374DF9B}.Release.Build.0 = Release|Win32
+		{168C0F0D-9975-4D24-885C-87A9B018617E}.Debug.ActiveCfg = Debug|Win32
+		{168C0F0D-9975-4D24-885C-87A9B018617E}.Debug.Build.0 = Debug|Win32
+		{168C0F0D-9975-4D24-885C-87A9B018617E}.Release.ActiveCfg = Release|Win32
+		{168C0F0D-9975-4D24-885C-87A9B018617E}.Release.Build.0 = Release|Win32
+		{4605E1EE-6257-4083-8EB5-3B7E7164C343}.Debug.ActiveCfg = Debug|Win32
+		{4605E1EE-6257-4083-8EB5-3B7E7164C343}.Debug.Build.0 = Debug|Win32
+		{4605E1EE-6257-4083-8EB5-3B7E7164C343}.Release.ActiveCfg = Release|Win32
+		{4605E1EE-6257-4083-8EB5-3B7E7164C343}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,16 @@
+CON mkxuncat
+{
+  SOURCE mkxuncat.cpp
+  
+  USE ebml
+  USE matroska
+  
+  INCLUDE(TARGET_WIN) ../libebml/src/platform/win32
+  INCLUDE ../libebml
+  INCLUDE ../libmatroska
+}
+
+WORKSPACE mkxuncat
+{
+  USE mkxuncat
+}
