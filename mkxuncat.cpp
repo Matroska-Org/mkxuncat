@@ -1,7 +1,7 @@
 /****************************************************************************
 ** mkxuncat : split Matroska files in pieces, see http://www.matroska.org/
 **
-** Copyright (C) 2005 Steve Lhomme.  All rights reserved.
+** Copyright (C) 2005-2011 Steve Lhomme.  All rights reserved.
 **
 ** This file is part of mkxuncat.
 **
