@@ -55,7 +55,7 @@ typedef StdIOCallback IOclass;
 
 int main(int argc, const char *argv[])
 {
-	fprintf( stdout, "mkxuncat v0.1.1 (c) Steve Lhomme - GPL\n" );
+	fprintf( stdout, "mkxuncat v0.1.2 (c) Steve Lhomme - GPL\n" );
 
 	if ( argc != 2 )
 	{
@@ -110,7 +110,7 @@ int main(int argc, const char *argv[])
 		}
 
 		p_InputFile.setFilePointer( ElementLevel0->GetElementPosition() );
-		i_DataSize = i_SizeToCopy = ElementLevel0->ElementSize();
+		i_DataSize = i_SizeToCopy = ElementLevel0->ElementSize(true);
 		
 		// copy data
 		while ( i_SizeToCopy )

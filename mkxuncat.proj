@@ -1,5 +1,6 @@
 CON mkxuncat
 {
+  PROJECT_VERSION 0.1.2
   SOURCE mkxuncat.cpp
   
   USE ebml
